@@ -28,10 +28,12 @@ body {
     z-index: 3;
     font-family: nunito;
 }
+
 .nav {
     display: flex;
     justify-content: space-between;
 }
+
 .nav ul {
     display: flex;
     list-style: none;
@@ -72,7 +74,6 @@ body {
 }
 .hero p {
     font-family: 'Nunito', sans-serif;
-    
 }
 .hero-title{
     font-size: 7rem;
@@ -177,6 +178,10 @@ footer p {
     justify-content: center;
     color: white;
  }
+ .footer ul {
+    display: flex;
+    list-style: none;
+ }
  .u {
     padding-top: 10px;
     font-size: 24px;
@@ -190,3 +195,146 @@ footer p {
 #socmed a:hover {
     background-color: white;
 }
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.testimonial {
+    width: 30%;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #936464;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.testimonial p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .testimonial h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .testimonial h4 {
+    font-size: 14px;
+    color: #999;
+  }
+
+  @media screen and (max-width: 768px) {
+        .hero-title{
+        font-size: 7rem;
+        font-family: 'Qwigley', cursive;
+        margin-right: 80px;
+        margin-top: -10%;
+        width: auto;
+        margin:10px 20px;
+          }
+         .w {
+        font-size: 10rem;
+        color:#FF4500;
+           }
+    
+        .c {
+        font-size: 22px;
+        color:#FF4500;
+        text-align: center;
+          }
+        .hero p {
+            font-family: 'Nunito', sans-serif;
+            margin:10px 20px;
+        }
+    .main-nav {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        z-index: 3;
+        font-family: nunito;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin:0;
+    }
+    .nav a {
+        text-decoration: none;
+        color: white;
+        transition:all 0.4s;
+    }
+    #navbar a{
+        padding:7px;
+    }
+    .nav a:hover {
+        color:#FF4500;
+        border-radius: 10px;
+        background-color:#ffffff ;
+    
+    }
+    .bg {
+        width: 100%;
+        height: 100vh;
+        }
+    .blur {
+        margin-top: -2px;
+        height: 100vh;
+        width:100%;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.447);
+        }
+
+    .section-class {
+           margin:10px 20px;
+           font-size: 30px;
+        }
+    .album {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin:10px 0;
+    }
+    .testimonial-container {
+        margin-right: 20px;
+        flex-direction: column;
+    }
+    .testimonial {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .description {
+        margin:10px 20px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .logo {
+        display: none;
+    }
+}
+
