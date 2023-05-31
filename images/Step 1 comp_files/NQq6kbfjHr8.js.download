@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("CometInstantGamesIncludeSplashUriInFragment.relayprovider",["qex"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){var a;return!((a=c("qex")._("1378"))!=null?a:!1)}};g["default"]=a}),98);
+__d("CometInstantGamesMatchGraphQLAliases.relayprovider",["qex"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){return c("qex")._("1379")===!0}};g["default"]=a}),98);
