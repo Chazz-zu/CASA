@@ -59,7 +59,6 @@ body {
     color:#FF4500;
     border-radius: 10px;
     background-color:#ffffff ;
-
 }
 .main {
     position:relative;
@@ -198,10 +197,6 @@ footer p {
     color: white;
 
 }
-
-#socmed a:hover {
-    background-color: white;
-}
 .testimonial-container {
     display: flex;
     flex-wrap: wrap;
@@ -244,7 +239,13 @@ footer p {
     font-size: 14px;
     color: #999;
   }
-
+  .footer li:hover {
+    position: relative;
+    top: -4px;
+  }
+  .backtotop:hover {
+    width: 51px;
+  }
   @media screen and (max-width: 768px) {
         .hero-title{
         font-size: 7rem;
@@ -336,6 +337,11 @@ footer p {
 @media screen and (max-width: 1000px) {
     .description {
         margin:10px 20px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .description {
+        margin:10px 100px;
     }
 }
 @media screen and (max-width: 450px) {
